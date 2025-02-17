@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RegisterPage</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css"
+        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="./index.css">
+    <link rel="icon" href="./Images/infoviaan.png">
+
+</head>
+
+<body>
+    <!-- Navbar Start -->
+    <nav class="navbar sticky-top navbar-expand-lg navbar-light bg-light">
+
+        <a class="navbar-brand" href="https://www.infoviaan.com">
+            <img src="./Images/infoviaan.png" alt="" width="30" height="30">
+        </a>
+
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav mr-auto">
+                <li class="nav-item active">
+                    <a class="btn btn-outline-primary navbar-brand" href="./index.html">Home <span
+                            class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                    <a class="btn btn-outline-primary navbar-brand" href="#">Tutorial</a>
+                </li>
+                <li class="nav-item">
+                    <a class="btn btn-outline-primary navbar-brand" href="./Service.html"> Services</a>
+                </li>
+                <li class="nav-item">
+                    <a class="btn btn-outline-primary navbar-brand" href="#">About Us</a>
+                </li>
+                <li class="nav-item">
+                    <a class="btn btn-outline-primary navbar-brand" href="#">Contact Us</a>
+                </li>
+
+                <li class="nav-item">
+                    <a class="btn btn-outline-primary navbar-brand" href="#Register.html">Register</a>
+                </li>
+            </ul>
+            <form class="form-inline my-2 my-lg-0">
+                <a href="./Login.html" class="btn btn-success my-2 my-sm-0 mx-2" type="submit">Login</a>
+                <a href="#" class="btn btn-danger my-2 my-sm-0" type="submit">Logout</a>
+            </form>
+        </div>
+    </nav>
+    <!-- Navbar End -->
+    <!--jumbotron -->
+    <br>
+    <div class="container">
+        <div class="jumbotron" style="background-image: linear-gradient(to right, #fc5c7d, #6a82fb);">
+            <h1 class="display-3 text-center heading">Welcome To Register Page</h1>
+
+        </div>
+    </div>
+    <br>
+    <!--jumbotron -->
+
+    <!-- Register Form Start -->
+    <div class="container">
+        <form action="./success.html" class="form-register">
+            <div class="form-row">
+                <div class="form-group col-md-4">
+                    <label for="inputEmail4">User First Name</label>
+                    <input type="text" class="form-control" id="inputEmail4" placeholder="Enter First Name">
+                </div>
+                <div class="form-group col-md-4">
+                    <label for="inputPassword4">User Middle Name</label>
+                    <input type="text" class="form-control" id="inputPassword4" placeholder="Enter Middle Name">
+                </div>
+                <div class="form-group col-md-4">
+                    <label for="inputPassword4">User Last Name</label>
+                    <input type="text" class="form-control" id="inputPassword4" placeholder="Enter Last Name">
+                </div>
+            </div>
+            <div class="form-row">
+                <div class="form-group col-md-6">
+                    <label for="inputEmail4">Email</label>
+                    <input type="email" class="form-control" id="inputEmail4" placeholder="Email">
+                </div>
+                <div class="form-group col-md-6">
+                    <label for="inputPassword4">Password</label>
+                    <input type="password" class="form-control" id="inputPassword4" placeholder="Password">
+                </div>
+            </div>
+            <div class="form-row">
+                <div class="form-group col-md-6">
+                    <label for="inputAddress">Address</label>
+                    <input type="text" class="form-control" id="inputAddress" placeholder="1234 Main St">
+                </div>
+                <div class="form-group col-md-6">
+                    <label for="inputAddress2">Gender</label>
+                    <select id="inputState" class="form-control">
+                        <option selected>Choose...</option>
+                        <option>Male</option>
+                        <option>Female</option>
+                        <option>Others</option>
+                    </select>
+                </div>
+            </div>
+            <div class="form-row">
+                <div class="form-group col-md-6">
+                    <label for="inputAddress">City</label>
+                    <select id="inputState" class="form-control">
+                        <option selected>Choose...</option>
+                        <option value="Select_District">Select_District</option>
+                        <option value="Agar Malwa">Agar Malwa</option>
+                        <option value="Alirajpur">Alirajpur</option>
+                        <option value="Anuppur">Anuppur</option>
+                        <option value="Ashoknagar">Ashoknagar</option>
+                        <option value="Balaghat">Balaghat</option>
+                        <option value="Barwan">Barwan</option>
+                        <option value="Betul">Betul</option>
+                        <option value="Bhind">Bhind</option>
+                        <option value="Bhopal">Bhopal</option>
+                        <option value="Burhanpur">Burhanpur</option>
+                        <option value="Chhatarpur">Chhatarpur</option>
+                        <option value="Chhindwara">Chhindwara</option>
+                        <option value="Damoh">Damoh</option>
+                        <option value="Datia">Datia</option>
+                        <option value="Dewas">Dewas</option>
+                        <option value="Dhar">Dhar</option>
+                        <option value="Dindori">Dindori</option>
+                        <option value="East Nimar">East Nimar</option>
+                        <option value="Guna">Guna</option>
+                        <option value="Gwalior">Gwalior</option>
+                        <option value="Harda">Harda</option>
+                        <option value="Hoshangabad">Hoshangabad</option>
+                        <option value="Indore">Indore</option>
+                        <option value="Jabalpur">Jabalpur</option>
+                        <option value="Jhabua">Jhabua</option>
+                        <option value="Katni">Katni</option>
+                        <option value="Mandla">Mandla</option>
+                        <option value="Mandsaur">Mandsaur</option>
+                        <option value="Morena">Morena</option>
+                        <option value="Narsinghpur">Narsinghpur</option>
+                        <option value="Neemuch">Neemuch</option>
+                        <option value="Niwari">Niwari</option>
+                        <option value="Panna">Panna</option>
+                        <option value="Raisen">Raisen</option>
+                        <option value="Rajgarh">Rajgarh</option>
+                        <option value="Ratlam">Ratlam</option>
+                        <option value="Rewa">Rewa</option>
+                        <option value="Sagar">Sagar</option>
+                        <option value="Satna">Satna</option>
+                        <option value="Sehore">Sehore</option>
+                        <option value="Seoni">Seoni</option>
+                        <option value="Shahdol">Shahdol</option>
+                        <option value="Shajapur">Shajapur</option>
+                        <option value="Sheopur">Sheopur</option>
+                        <option value="Shivpuri">Shivpuri</option>
+                        <option value="Sidhi">Sidhi</option>
+                        <option value="Singrauli">Singrauli</option>
+                        <option value="Tikamgarh">Tikamgarh</option>
+                        <option value="Ujjain">Ujjain</option>
+                        <option value="Umaria">Umaria</option>
+                        <option value="Vidisha">Vidisha</option>
+                        <option value="West Nimar">West Nimar</option>
+                    </select>
+                </div>
+                <div class="form-group col-md-6">
+                    <label for="inputAddress2">State</label>
+                    <select id="inputState" class="form-control">
+                        <option selected>Choose...</option>
+                        <option value="Andhra Pradesh">Andhra Pradesh</option>
+                        <option value="Arunachal Pradesh">Arunachal Pradesh</option>
+                        <option value="Asom (Assam)">Asom (Assam)</option>
+                        <option value="Bihar">Bihar</option>
+                        <option value="Chhattisgarh">Chhattisgarh</option>
+                        <option value="Goa">Goa</option>
+                        <option value="Gujarat">Gujarat</option>
+                        <option value="Haryana">Haryana</option>
+                        <option value="Himachal Pradesh">Himachal Pradesh</option>
+                        <option value="Jammu and Kashmir">Jammu and Kashmir</option>
+                        <option value="Jharkhand">Jharkhand</option>
+                        <option value="Karnatak">Karnataka</option>
+                        <option value="Kerala">Kerala</option>
+                        <option value="Madhya Pradesh">Madhya Pradesh</option>
+                        <option value="Maharashtra">Maharashtra</option>
+                        <option value="Manipur"> Manipur</option>
+                        <option value="Meghalaya">Meghalaya</option>
+                        <option value="Mizoram">Mizoram</option>
+                        <option value="Nagaland">Nagaland</option>
+                        <option value="Orissa">Orissa</option>
+                        <option value="Punjab">Punjab</option>
+                        <option value="Rajasthan">Rajasthan</option>
+                        <option value="Sikkim">Sikkim</option>
+                        <option value="Tamil Nadu">Tamil Nadu</option>
+                        <option value="Telangana">Telangana</option>
+                        <option value=" Tripura"> Tripura</option>
+                        <option value="Uttarakhand (Uttaranchal)">Uttarakhand (Uttaranchal)</option>
+                        <option value="Uttar Pradesh">Uttar Pradesh</option>
+                        <option value="West Bengal">West Bengal</option>
+                    </select>
+                </div>
+            </div>
+            <button type="submit" class="btn btn-primary">Submit</button>
+            <button type="reset" class="btn btn-warning">Reset</button>
+        </form>
+    </div>
+    <!-- Register Form Start -->
+    <br><br>
+</body>
+
+</html>
